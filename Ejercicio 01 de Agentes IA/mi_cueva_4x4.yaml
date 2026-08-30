@@ -1,0 +1,16 @@
+grid:
+  width: 4
+  height: 4
+
+agent:
+  start: [1, 1]
+  direction: east
+  arrows: 1
+#movi a wumpus hasta la esquina derecha
+wumpus: [4, 1]
+
+pits:
+  - [1, 4]
+  - [4, 3]
+#oro movido 
+gold: [3, 4]
